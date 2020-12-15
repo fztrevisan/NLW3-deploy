@@ -1,0 +1,32 @@
+/* Regra CSS:
+Seletor com uma declaração de propriedade e valor
+EX: body{
+  color:red;
+}
+Muda o texto de toda a página para vermelho!
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  color: white;
+  background: #EBF2F5;
+}
+
+:root{
+  font-size: 62.5%;
+  /* Padrão do navegador = 16px, então vamos usar 62.5% de 16px = 10 px*/
+}
+
+body, input, button, textarea{
+  /* font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  font-family: 'Nunito', sans-serif; */
+  font: 400 1.8rem/1 'Nunito', sans-serif;
+  /* a medida rem é proporção em relação ao tamanho definido para o ROOT */ 
+}
