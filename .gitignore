@@ -2,3 +2,4 @@ node_modules
 Videos/
 database/fakedata.js
 database/test.js
+.env
